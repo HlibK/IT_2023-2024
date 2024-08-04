@@ -1,0 +1,139 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #23085a;
+
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-areas: 
+    'header header header header'
+    'aside main main main'
+    'footer footer footer footer';
+    /* grid-template-columns: 1fr 1fr; */
+    margin-bottom: 50px;
+    margin-top: 20px;
+    max-width: 1240px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1;
+  }
+
+
+  /* .container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    max-width: 1240px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  } */
+
+header {
+    grid-area: header;
+}
+
+  .grid-header {
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: cyan;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .header-logo img{
+    max-width: 10%;
+    margin-left: 45px;
+
+  }
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .header-nav li {
+    list-style: none;
+  }
+
+  main {
+    grid-area: main;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background-color: blueviolet;
+  }
+  .grid-main {
+    padding: 20px;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+  .main-img {
+    width: 300px !important;
+    grid-column: 1 !important;
+    grid-row: 1 / span 3 !important;
+    margin-left: 50px;
+  }
+  .grid-main img {
+    grid-column: 2;
+    width: 150px;
+  }
+
+
+  aside {
+    max-width: 20rem;
+    grid-area: aside;
+    margin-bottom: 20px;
+    background-color: orange;
+    
+  }
+  .grid-aside {
+    padding: 10px;
+    display: grid;
+    
+  }
+
+
+  footer {
+    grid-area: footer;
+    background-color: olivedrab;
+  }
+  .grid-footer {
+   display: grid;
+   
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
