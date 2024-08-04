@@ -1,0 +1,85 @@
+.country-related {
+    margin-bottom: 50px;
+}
+
+
+.ukr-related-wrapper {
+    background-color: $mainColor;
+    border-radius: 50px 0;  
+    padding: 45px 40px 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.country-name {
+    font-weight: 600;
+    color: #00dcff;
+    padding-left: 50px;
+    font-size: 1.37rem;
+    margin-bottom: 45px;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 0;
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+        background-repeat: no-repeat;
+        background-image: url('../img/globe.png');
+    }
+}
+
+.ukr-related-1 {
+    border-right: 5px solid #ffff;
+    padding-right: 120px;
+    height: 150px;
+    a {
+        border: 1px solid white;
+        border-radius: 50px;
+        background-color: #ffff;
+        padding: 12px 40px;
+        font-size: 14px;
+        
+        &:hover {
+            background-color: magenta;
+            border: 1px solid magenta;
+        }
+        margin-right: 20px;
+    }
+}
+
+.btn_another-country {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.ukr-related-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+    a {
+        color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: -225px;
+    }
+}

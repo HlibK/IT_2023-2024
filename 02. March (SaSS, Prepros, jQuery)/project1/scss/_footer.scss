@@ -1,0 +1,140 @@
+footer{
+    // background-color: $mainColor;
+    background-color: #23085a;
+    margin-bottom: 100px;
+    margin-top: -126px;
+}
+
+.bcw {
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 24px 0;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+   span {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    color: #00dcff;
+    font-weight: 300;
+   }
+}
+
+.bcw-logo {
+    width: 44px;
+    height: 44px;
+    margin-right: 16px;
+}
+
+.main-footer_wrapper {
+    display: flex;
+    max-width: 1240px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+   
+}
+
+.main-footer-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+
+    :hover {
+        text-decoration: underline;
+    }
+
+    li {
+        padding-bottom: 7px;
+    }
+}
+
+.list-first {
+    color: #00dcff;
+    margin-bottom: 10px;
+}
+
+.additional-footer_wrapper {
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+    :first-child{
+        padding-left: 0;
+    }
+
+    :last-child {
+        border: none;
+    }
+
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+.add-footer_link {
+    color: white;
+    padding: 0 15px;
+    border-right: 1px solid #ffff;
+
+}
+
+.additional-footer {
+    color: #ffff;
+    padding-bottom: 25px;
+
+    h2 {
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+
+    p {
+        line-height: 1.3;
+    }
+}
+
+.toggle-menu {
+    background-color: #fff;  
+    // display: flex;
+    // justify-content: space-around;
+    
+}
+
+.toggle-menu__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.toggle-menu__list {
+   
+    list-style: none;
+
+    li {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 1.5;
+         color: #000;
+    }
+}
+
+.toggle_btn {
+    
+}
