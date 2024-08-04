@@ -1,0 +1,11 @@
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px; 
+    align-items: baseline;
+    
+}
+/* .charts-container div {
+    transform: rotate(180deg) scaleX(-1);
+}
+ */
