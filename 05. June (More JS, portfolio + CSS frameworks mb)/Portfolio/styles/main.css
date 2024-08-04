@@ -1,0 +1,68 @@
+.navbar-hover-modified {
+
+}
+
+
+.navbar-hover-modified:hover {
+    background: none !important;
+    color: blueviolet !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.navbar-button-modified {
+    background-color: blueviolet;
+    color: white;
+    transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+.navbar-button-modified:hover {
+    background: none !important;
+    background-color: blueviolet !important;
+    color: white !important;
+    box-shadow: 0 0 3px #383838;
+    
+}
+
+.hero-button-modified {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    transition: all 0.3s ease 0s; 
+}
+
+.hero-button-modified:hover {
+    background: none !important;
+    background-color: blueviolet !important;
+    color: white !important;
+    border: none;
+    /* box-shadow: 0px 15px 20px black; */
+    box-shadow: -8px 5px rgba(7, 0, 14, 0.945);
+    transform: translateY(-5px); 
+}
+
+
+#section__tech {
+    background-color: rgba(240, 225, 206, 0.842) !important;
+}
+
+.technologies-title {
+    text-align: center !important;
+}
+
+#card__is-hover {
+transition: all .5s ease;
+}
+#card__is-hover:hover {   
+        transform: translate3D(0,-1px,0) scale(1.08); /* move up slightly and zoom in */
+        box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+        transition: all .4s ease; /* zoom in */
+  
+        background-color: rgb(250, 225, 5) !important;
+}
+
+.tile-modify {
+    border: 3px solid black !important;
+}
+
